@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  identitytestserver:
+    image: identitytestserver
+    build:
+      context: .
+      dockerfile: IdentityTestServer\Dockerfile
