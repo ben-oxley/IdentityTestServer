@@ -5,7 +5,7 @@
     <DockerTargetOS>Windows</DockerTargetOS>
     <ProjectGuid>85638b50-8777-4170-b5ec-61a0295a4a2f</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
-    <DockerServiceUrl>http://{ServiceIPAddress}</DockerServiceUrl>
+    <DockerServiceUrl>http://{ServiceIPAddress}:5000</DockerServiceUrl>
     <DockerServiceName>identitytestserver</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
